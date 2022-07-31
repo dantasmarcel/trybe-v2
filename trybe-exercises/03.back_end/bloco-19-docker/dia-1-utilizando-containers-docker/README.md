@@ -59,5 +59,6 @@ exit
 ```
 
 12. Remova somente o container criado para esse exercício.
-[BÔNUS] Crie e rode de modo interativo em modo 'Cleanup', a imagem andrius/ascii-patrol.
-[BÔNUS] **Encerre o container utilizando os botões [ctrl] + [c].
+```
+docker container rm <CONTAINER ID>
+```
