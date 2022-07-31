@@ -141,7 +141,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 19: Docker - Utilizando Containers
 
-- [ ] 19-1: _Utilizando Containers - Docker_
+- [x] 19-1: _Utilizando Containers - Docker_
 - [ ] 19-2: _Manipulando imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _[Projeto - Docker Todo-List](https://github.com/IsaacdAlmeida/docker-todolist)_
