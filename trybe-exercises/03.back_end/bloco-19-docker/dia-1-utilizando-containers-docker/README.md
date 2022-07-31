@@ -1,4 +1,4 @@
-##Agora a prática!
+## Agora a prática!
 
 
 1. No [Docker Hub](https://hub.docker.com/), utilizando a caixa de busca ("Search for great content"), busque pela imagem da Distribuição Linux Debian.
