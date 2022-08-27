@@ -5,21 +5,21 @@
 ```
 https://hub.docker.com/search?q=debian
 ```
-2. Uma vez que encontrar a imagem oficial, acesse-a (clicando em seu card) e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um container para isso.
+2. Visto que encontrou a imagem oficial, acesse-a e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um container para isso.
 ```
 docker pull debian
 ```
-3. Baixe a imagem utilizando a tag: stable-slim, que é uma versão reduzida da distribuição.
+3. Baixe a versão reduzida do Debian utilizando a tag <code>stable-slim</code>.
 ```
 docker pull debian:stable-slim
 ```
-4. Após baixar a imagem para seu computador local, crie e execute um container no modo interativo utilizando essa imagem como referência — não esqueça referenciar a tag.
+4. Após baixar a imagem para seu computador local, crie e execute um container no modo interativo utilizando essa imagem como referência — não se esqueça de referenciar a tag.
 ```
 docker run -it debian:stable-slim
 ```
-5. No terminal, você deve conseguir rodar o comando cat /etc/*-release, que vai retornar os dados da distribuição Debian que está sendo rodada dentro do container.
+5. No terminal, consiga rodar o comando <code>cat /etc/*-release</code>, que vai retornar os dados da distribuição Debian iniciada dentro do container.
 ```
-oot@6984410e62b4:/# cat /etc/*-release
+root@6984410e62b4:/# cat /etc/*-release
 PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
 NAME="Debian GNU/Linux"
 VERSION_ID="11"
@@ -36,7 +36,7 @@ root@6984410e62b4:/#
 ```
 exit
 ```
-7. Verifique na sua lista de containers qual container se refere ao exercício que acabou de praticar.
+7. Verifique na sua lista de containers qual deles se refere ao exercício que acabou de praticar.
 ```
 docker container ls
 ```
@@ -48,7 +48,7 @@ docker start <CONTAINER ID>
 ```
 docker attach <CONTAINER ID>
 ```
-10. Rode o comando cat /etc/debian_version que deve retornar a versão atual do sistema do container.
+10. Rode o comando <code>cat /etc/debian_version</code> que deve retornar a versão atual do sistema do container.
 ```
 root@6984410e62b4:/# cat /etc/debian_version 
 11.4
